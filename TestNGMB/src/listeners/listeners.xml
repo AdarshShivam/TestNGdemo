@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "TestNGListnerSuite">
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+	</listeners>
+		
+		<test name="LoginTest">
+			<classes>
+				<class name="listeners.LoginTest">
+					<methods>
+						<include name="loginByEmail" />
+						<include name="loginByFb" />
+					</methods>
+				</class>
+			</classes>
+		</test>
+
+</suite>
